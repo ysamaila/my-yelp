@@ -9,7 +9,6 @@ import { createRestaurant, deleteRestaurant } from "./graphql/mutations";
 
 import {
   withAuthenticator,
-  TextField,
   View,
   Heading,
   Button,
