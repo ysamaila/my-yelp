@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Welcome to My Yelp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Task
 
-## Available Scripts
+The problem is to deploy an existing ReactJS application that also uses GraphQL into the AWS Amplify environment with authentication. The challenge here lies in the following aspects:
 
-In the project directory, you can run:
+- Setting up an AWS Amplify environment and connecting it to the existing codebase.
+- Configuring authentication within the application.
+- Ensuring that the application works as expected in the cloud environment.
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To solve this problem, I followed these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Created an AWS Amplify environment for the project.
+- Connected the Amplify environment to the existing ReactJS codebase.
+- Configured authentication in Amplify and integrated it with the ReactJS application.
+- Deployed the application to AWS Amplify.
+- Verified that the deployed application works correctly in the cloud environment.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To install and set up the project locally, follow these steps:
 
-### `npm run build`
+- Clone the Git repository containing the ReactJS project.
+- Navigate to the project's root directory.
+- Run npm install to install the project dependencies.
+- Configure the AWS Amplify environment as needed (e.g., authentication settings, AWS resources).
+- Run npm start to start the development server locally and test the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Once the project is set up locally and dependencies are installed, running npm start will start the development server, and you can access the application in your web browser at http://localhost:3000 by default.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Users can interact with the ReactJS application, and if authentication is configured, they will need to sign in or sign up as required.
 
-### `npm run eject`
+- After thoroughly testing the application locally to ensure it works as expected, you can deploy it to AWS Amplify by using Amplify's deployment commands. Once deployed, the application will be accessible on the provided cloud URL.
+- The URL of the deployed application should be placed in the my_yelp_url.txt file, as requested.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+./my_project argument1 argument2
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### The Core Team
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+-Yusuf Samaila
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
+<span><img alt='Qwasar SV -- Software Engineering School's Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px'></span>
